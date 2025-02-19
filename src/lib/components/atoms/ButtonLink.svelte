@@ -8,10 +8,10 @@
 	const { children, onclick }: ButtonLinkProps = $props();
 </script>
 
-<button {onclick}>{@render children()}</button>
+<button {onclick} class="button-link">{@render children()}</button>
 
 <style>
-	button {
+	.button-link {
 		background-color: #bb1f43;
 		color: white;
 		font-weight: bold;

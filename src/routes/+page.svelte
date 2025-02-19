@@ -1,11 +1,16 @@
-<script>
-	import ButtonLink from '$lib/components/atoms/ButtonLink.svelte';
-	import PageHeader from '$lib/components/atoms/PageHeader.svelte';
+<script lang="ts">
+	import QuestionForm from '$lib/components/molecules/QuestionForm.svelte';
+	import type { QuizzQuestion } from '$lib/models/quizz';
+	import { QUIZZ } from '$lib/quizz-questions';
+
+	const currentQuestion: QuizzQuestion = QUIZZ[0];
 </script>
 
 <div class="main">
-	<PageHeader>Quel Pasquet-Rivaille es-tu ?</PageHeader>
-	<ButtonLink>Faisons le test !</ButtonLink>
+	<!-- <PageHeader>Quel Pasquet-Rivaille es-tu ?</PageHeader> -->
+	<!-- <ButtonLink>Faisons le test !</ButtonLink> -->
+
+	<QuestionForm question={currentQuestion} onAnswer={() => {}} />
 </div>
 
 <style>

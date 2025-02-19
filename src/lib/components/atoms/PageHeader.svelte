@@ -8,10 +8,10 @@
 	const { children }: PageHeaderProps = $props();
 </script>
 
-<h1>{@render children()}</h1>
+<h1 class="page-header">{@render children()}</h1>
 
 <style>
-	h1 {
+	.page-header {
 		margin: 0;
 		padding: 0;
 		font-weight: 800;

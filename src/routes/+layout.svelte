@@ -30,6 +30,7 @@
 	:global {
 		body {
 			background-color: #9fcce0;
+			/* background-color: #2c8d1f; */
 			display: flex;
 			flex-direction: column;
 			justify-content: stretch;
