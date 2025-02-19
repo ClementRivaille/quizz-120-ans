@@ -2,6 +2,10 @@
 	let { children } = $props();
 </script>
 
+<svelte:head>
+	<title>Quiz 120 ans</title>
+</svelte:head>
+
 <div id="app">
 	<div>
 		{@render children()}
