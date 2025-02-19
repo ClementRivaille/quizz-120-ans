@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { Orientation, QuizzAnswer, QuizzQuestion } from '$lib/models/quizz';
+	import { fly, slide } from 'svelte/transition';
 	import ButtonAnswer from '../atoms/ButtonAnswer.svelte';
 	import QuestionText from '../atoms/QuestionText.svelte';
 
@@ -40,14 +41,14 @@
 		display: flex;
 		flex-direction: column;
 		align-items: stretch;
-		gap: 1.2em;
+		gap: 1.3em;
 		text-align: center;
 		min-width: 80vw;
 
 		.answers {
 			display: flex;
 			flex-direction: column;
-			gap: 0.6em;
+			gap: 0.8em;
 		}
 	}
 </style>

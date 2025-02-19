@@ -1,0 +1,2 @@
+export const PAGE_TRANSITION_DURATION = 300;
+export const TRANSITION_HEIGHT = 350;
