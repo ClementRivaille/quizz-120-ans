@@ -4,6 +4,7 @@
 	import { fly } from 'svelte/transition';
 	import PageHeader from '../atoms/PageHeader.svelte';
 	import { PAGE_TRANSITION_DURATION, TRANSITION_HEIGHT } from '$lib/transitions';
+	import Paragraph from '../atoms/Paragraph.svelte';
 
 	const finalOrientation = STORE.getResult();
 	const result = RESULTS[finalOrientation];
@@ -18,7 +19,7 @@
 	}}
 >
 	<PageHeader>{result.header}</PageHeader>
-	<div>{result.description}</div>
+	<Paragraph>{result.description}</Paragraph>
 </div>
 
 <style>
