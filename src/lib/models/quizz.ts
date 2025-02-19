@@ -9,3 +9,8 @@ export interface QuizzQuestion {
 	question: string;
 	answers: QuizzAnswer[];
 }
+
+export interface QuizzResult {
+	header: string;
+	description: string;
+}
