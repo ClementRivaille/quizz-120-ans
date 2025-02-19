@@ -21,8 +21,8 @@
 		background-color: transparent;
 		border: 4px solid var(--button-color);
 		text-align: center;
-		padding: 0.6em;
-		border-radius: 99px;
+		padding: 0.7em;
+		border-radius: 50px;
 		font-size: 1.4rem;
 		transition: all 0.2s;
 		outline: none;
