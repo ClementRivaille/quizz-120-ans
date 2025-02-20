@@ -7,7 +7,6 @@ export class QuizzState {
 	private status: 'not-started' | 'started' | 'finished' = $state('not-started');
 
 	constructor(questions: QuizzQuestion[]) {
-		console.log('called how many time!?');
 		this.questions = questions;
 	}
 
@@ -45,6 +44,10 @@ export class QuizzState {
 		} else {
 			return this.score.fab > this.score.isa ? 'fab' : 'isa';
 		}
+	}
+
+	get scoreDebug() {
+		return JSON.stringify(this.score);
 	}
 }
 
