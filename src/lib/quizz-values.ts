@@ -7,7 +7,8 @@ export const QUIZZ: QuizzQuestion[] = [
 			{ label: 'Excel', value: 'none' },
 			{ label: 'Le téléphone', value: 'fab' },
 			{ label: 'Montessori', value: 'isa' }
-		]
+		],
+		theme: 'work'
 	},
 	{
 		question: 'Ta spécialité en cuisine ?',
@@ -15,15 +16,17 @@ export const QUIZZ: QuizzQuestion[] = [
 			{ label: 'Un plat léger de manière copieuse', value: 'none' },
 			{ label: 'De la sauce épicée avec un supplément de piments', value: 'fab' },
 			{ label: `QUOI ? J'ENTENDS PAS AVEC LE BRUIT DU MAGIMIX !`, value: 'isa' }
-		]
+		],
+		theme: 'cook'
 	},
 	{
-		question: `Quel âge as-tu ?`,
+		question: 'Quel âge as-tu ?',
 		answers: [
 			{ label: 'Le plus jeune', value: 'fab' },
 			{ label: 'Allez on compte : un, deux, trois, quatre…', value: 'isa' },
 			{ label: "C'est marrant, j'en ai aucune idée", value: 'none' }
-		]
+		],
+		theme: 'age'
 	},
 	{
 		question: `Quel film on se regarde ce soir ?`,
@@ -34,7 +37,8 @@ export const QUIZZ: QuizzQuestion[] = [
 				value: 'isa'
 			},
 			{ label: `Si c'est de David Lynch je suis pas sûr de tenir jusqu'à la fin`, value: 'none' }
-		]
+		],
+		theme: 'movie'
 	},
 	{
 		question: 'Lorsque tu danses :',
@@ -45,7 +49,8 @@ export const QUIZZ: QuizzQuestion[] = [
 				label: 'Tu danse tellement fort que tu casses la jambe de ton ou ta partenaire',
 				value: 'fab'
 			}
-		]
+		],
+		theme: 'dance'
 	},
 	{
 		question: `La meilleure destination de vacances ?`,
@@ -53,7 +58,8 @@ export const QUIZZ: QuizzQuestion[] = [
 			{ label: 'Ax-les-Thermes', value: 'isa' },
 			{ label: 'Agia Galini', value: 'fab' },
 			{ label: 'Le canapé', value: 'none' }
-		]
+		],
+		theme: 'holiday'
 	},
 	{
 		question: `Team chat ou team chien ?`,
@@ -61,7 +67,8 @@ export const QUIZZ: QuizzQuestion[] = [
 			{ label: 'Team chat', value: 'isa' },
 			{ label: 'Chat !', value: 'fab' },
 			{ label: 'MIAOU', value: 'none' }
-		]
+		],
+		theme: 'cat'
 	},
 	{
 		question: 'Comment recois-tu tes invités ?',
@@ -72,7 +79,8 @@ export const QUIZZ: QuizzQuestion[] = [
 			},
 			{ label: 'On va sortir beacoup de bouteilles', value: 'none' },
 			{ label: "Encore des invités ? C'est la 5ème fois cette semaine !", value: 'isa' }
-		]
+		],
+		theme: 'guests'
 	},
 	{
 		question: `En allumant la radio dans ta voiture, qu'est-ce qu'on entend ?`,
@@ -80,7 +88,8 @@ export const QUIZZ: QuizzQuestion[] = [
 			{ label: 'Laurent Ruquier qui fait des blagues nulles', value: 'fab' },
 			{ label: `Jérémie Rousseau qui explique pourquoi l'orchestre joue mal`, value: 'isa' },
 			{ label: 'Dans 200 mètres, prenez la première sortie', value: 'none' }
-		]
+		],
+		theme: 'radio'
 	},
 	{
 		question: 'Et la télé ?',
@@ -91,7 +100,8 @@ export const QUIZZ: QuizzQuestion[] = [
 				label: "Je n'ai pas envie de regarder, mais je suis trop bien installé pour me lever",
 				value: 'fab'
 			}
-		]
+		],
+		theme: 'tv'
 	},
 	{
 		question: 'Comment préfères-tu naviguer ?',
@@ -99,7 +109,8 @@ export const QUIZZ: QuizzQuestion[] = [
 			{ label: 'En kayak', value: 'none' },
 			{ label: 'En bateau de croisière', value: 'isa' },
 			{ label: 'À la nage', value: 'fab' }
-		]
+		],
+		theme: 'sailing'
 	},
 	{
 		question: `Ton avis sur le PB 120 stars de Niniste ?`,
@@ -107,7 +118,8 @@ export const QUIZZ: QuizzQuestion[] = [
 			{ label: "Chat GPT, à l'aide !", value: 'isa' },
 			{ label: 'Tu inventes des mots là ?', value: 'none' },
 			{ label: '(hoche la tête) Ah oui, bien sûr, mais tout à fait', value: 'fab' }
-		]
+		],
+		theme: 'niniste'
 	},
 	{
 		question: `Tu as un train à prendre dans une heure…`,
@@ -118,7 +130,8 @@ export const QUIZZ: QuizzQuestion[] = [
 				value: 'isa'
 			},
 			{ label: "J'appelle le CEO de la SNCF pour demander qu'on m'attende", value: 'fab' }
-		]
+		],
+		theme: 'train'
 	}
 ];
 

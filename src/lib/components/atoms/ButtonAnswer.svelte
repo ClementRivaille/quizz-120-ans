@@ -16,8 +16,7 @@
 
 <style>
 	.button-answer {
-		--button-color: #bb1f43;
-		color: black;
+		color: var(--text-color);
 		background-color: transparent;
 		border: 4px solid var(--button-color);
 		text-align: center;
@@ -29,7 +28,7 @@
 
 		&.selected {
 			background-color: var(--button-color);
-			color: white;
+			color: var(--selected-text-color);
 			font-weight: bold;
 		}
 		&.disabled {

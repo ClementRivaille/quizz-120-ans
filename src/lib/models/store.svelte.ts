@@ -19,6 +19,11 @@ export class QuizzState {
 	get quizzStatus() {
 		return this.status;
 	}
+	get currentTheme() {
+		if (this.status === 'not-started') return 'default';
+		else if (this.status === 'finished') return 'end';
+		return this.currentQuestion.theme ?? 'default';
+	}
 
 	public start() {
 		this.status = 'started';

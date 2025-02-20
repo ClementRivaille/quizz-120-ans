@@ -8,6 +8,7 @@
 
 <style>
 	.question-text {
+		color: var(--text-color);
 		margin: 0;
 		padding: 0;
 		font-weight: 800;

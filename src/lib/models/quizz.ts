@@ -8,6 +8,7 @@ export interface QuizzAnswer {
 export interface QuizzQuestion {
 	question: string;
 	answers: QuizzAnswer[];
+	theme: string;
 }
 
 export interface QuizzResult {

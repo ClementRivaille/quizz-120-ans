@@ -19,7 +19,7 @@ export default ts.config(
 			globals: {
 				...globals.browser,
 				...globals.node
-			}
+			},
 		}
 	},
 	{
@@ -29,6 +29,9 @@ export default ts.config(
 			parserOptions: {
 				parser: ts.parser
 			}
+		},
+		rules: {
+			"irregular-whitespace": "off",
 		}
-	}
+	},
 );
