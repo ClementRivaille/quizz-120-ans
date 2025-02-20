@@ -126,12 +126,12 @@ export const RESULTS: { [key in Orientation]: QuizzResult } = {
 	fab: {
 		header: 'Tu es un Fakir',
 		description:
-			'Entrepreneur toujours actif sur Linkedin, tu ne refuse jamais un kir et as toujours de la harissa en réserve. Tu sais très bien recevoir (et être reçu !), tu es notamment connu pour une mousse au chocolat légendaire.'
+			'Entrepreneur toujours actif sur Linkedin, tu ne refuses jamais un kir et as toujours de la harissa en réserve. Tu sais très bien recevoir (et être reçu !), tu es notamment connu pour une mousse au chocolat légendaire.'
 	},
 	isa: {
 		header: 'Tu es une Babouche',
 		description:
-			"Excellente pédagogue, tu es admirée par tes élèves aussi bien pour ton charisme que tes talents sur scène. Tu connais aussi tous les bons plans pour les séjours de vacances, et la Normandie n'a plus aucun secret pour toi."
+			"Excellente pédagogue, tu es admirée par tes élèves aussi bien pour ton charisme que tes talents sur scène. Tu connais aussi tous les bons plans pour les séjours de vacances, et la Normandie n'a aucun secret pour toi."
 	},
 	none: {
 		header: 'Tu as pile 120 ans',

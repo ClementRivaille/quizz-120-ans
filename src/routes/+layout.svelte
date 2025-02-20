@@ -22,6 +22,12 @@
 		:root {
 			font-size: 20px;
 		}
+
+		:global {
+			body {
+				padding: 0px 20px;
+			}
+		}
 	}
 
 	#app {
@@ -40,6 +46,7 @@
 			justify-content: stretch;
 			background-color: none;
 			height: 100vh;
+			padding: 0px 10px;
 
 			> * {
 				flex: 1;
