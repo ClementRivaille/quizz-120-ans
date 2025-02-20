@@ -33,7 +33,7 @@ export const QUIZZ: QuizzQuestion[] = [
 		answers: [
 			{ label: 'Une comédie française mais sans Benoît Poelvoorde svp', value: 'fab' },
 			{
-				label: `Le film avec un l'acteur là, qui joue un type, il est aussi dans un autre film par le réalisateur marié à l'actrice qui fait de très beaux films, notamment celui qui se passe en 1800, mais si, c'est celle qu'on voit souvent, son nom c'est…, `,
+				label: `Le film avec un l'acteur là, qui joue un type, il est aussi dans un autre film par le réalisateur marié à l'actrice qui fait de très beaux films, notamment celui qui se passe en 1800, mais si, c'est celle qu'on voit souvent, son nom c'est…`,
 				value: 'isa'
 			},
 			{ label: `Si c'est de David Lynch je suis pas sûr de tenir jusqu'à la fin`, value: 'none' }
@@ -95,7 +95,7 @@ export const QUIZZ: QuizzQuestion[] = [
 		question: 'Et la télé ?',
 		answers: [
 			{ label: 'Pékin Express ou Le Meilleur Pâtissier', value: 'isa' },
-			{ label: 'Je sais pas, elle est alumée en fond mais je ne la regarde pas', value: 'none' },
+			{ label: 'Je sais pas, elle est allumée en fond mais je ne la regarde pas', value: 'none' },
 			{
 				label: "Je n'ai pas envie de regarder, mais je suis trop bien installé pour me lever",
 				value: 'fab'
